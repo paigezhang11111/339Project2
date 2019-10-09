@@ -357,7 +357,7 @@ input:hover{
 /*--------------------The css for the colors palette------------------*/
 
 .color1{
-	background-color: #dacfce;
+	background-color: #fffaf7;
 	width: 21.7%;
 	text-align: center;
 	border:1px black solid;
@@ -366,7 +366,7 @@ input:hover{
 }
 
 .color2{
-	background-color: #854442;
+	background-color: #99563a;
 	width: 21.7%;
 	text-align: center;
 	border: 1px solid #dacfce;
@@ -375,7 +375,7 @@ input:hover{
 
 }
 .color3{
-	background-color: #c4cedd;
+	background-color: #cbbeb5;
 	width: 21.7%;
 	text-align: center;
 	border: 1px solid #dacfce;
