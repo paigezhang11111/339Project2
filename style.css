@@ -17,7 +17,7 @@ body{
 }
 
 code{
-	 background-color: #ccc8b6;
+	 background-color: #c2b4a7;
      padding: 1.5em;
  	 display: block;
      margin-right: 20em;
@@ -26,7 +26,7 @@ code{
 /*----------css for the header part-----------*/
 
 header{
-	background-color:	#854442;
+	background-color:	#99563a;
 
 }
 
@@ -298,11 +298,11 @@ a:active {
 
 
 button{
-	padding:1em 1.75em;
-	width:20%;
+	padding:1em 1.7em;
+	width:12%;
 	text-align: center;
 	margin-top:1em;
-	border:none;
+	border-radius:5px;
 	font-family:"Aaargh";
 	font-weight: bold;
 	transition: 0.3s;
