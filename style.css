@@ -16,6 +16,13 @@ body{
 	background-color:#dacfce;
 }
 
+code{
+	 background-color: #ccc8b6;
+     padding: 1.5em;
+ 	 display: block;
+     margin-right: 20em;
+}
+
 /*----------css for the header part-----------*/
 
 header{
