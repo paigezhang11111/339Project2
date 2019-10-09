@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<link rel = "stylesheet" href = "style.css">
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+	<title>Beauty and Youth</title>
+
+
+</head>
+
+<body>
+	<!--Header Part -->
+
+	<header>
+		
+		<h1>Beauty and Youth</h1>
+
+
+		<nav class="nav1"> 
+
+			<a href="#">Study Guide</a>		
+			<a href="#productPage">Products Listing</a>
+			<a href="#cart">Cart</a>
+			<a href="#checkout">Checkhout</a>
+
+		</nav>
+
+		<nav class="nav2">
+			<nav>        
+				<a href="#interactive_elements">Interactive Elements</a>
+				<a href="#text_elements">Text Elements</a>
+				<a href="#combined_elements">Combined Elements</a>
+				<a href="#design_elements">Design Elements</a>
+				<a href="#brand_elements">Brand Elements</a>
+
+				<a href="#citations">Citations</a>
+			</nav>
+		</nav>
+
+	</header>
+
+
+	<!--INTERACTIVE ELEMENTS SECTION-->
+
+	<section id="interactive_elements">
+		<h2>Interactive elements</h2>
+
+		<section class="element">
+			<h3>In-text link</h3>
+			<p>This is the <a href="#">link</a>.</p>
+			<h4>Sample Code</h4>
+			<code>&lt;a href="#"&gt;This is the link.&lt;/a&gt;</code>
+		</section>
+
+
+
+		<section class="element">
+
+			<h3>Navigation Link</h3>
+
+			<nav class="nav3"> 
+
+				<a href="#">Study Guide</a>		
+				<a href="#">Products Listing</a>
+				<a href="#">Checkout</a>
+
+			</nav>
+
+			<h4>Sample Code</h4>
+
+			<code>&lt;nav&gt;
+
+				&lt;a href="#"&gt;Study Guide&lt;/a&gt; 
+				&lt;a href="#"&gt;Products Listing&lt;/a&gt;
+				&lt;a href="#"&gt;Checkout&lt;/a&gt;
+
+				&lt;/nav&gt;
+			</code>
+		</section>
+
+		<section class="element">
+			<h3>Submit and Reset Buttons</h3>
+
+			<p><button name="submit" class="submitButton">Submit</button></p>
+
+			<p><button name="reset" class="resetButton">Reset</button></p>
+
+
+
+			<h4>Sample Code</h4>
+
+			<code>
+				&lt;button name="submit" class="submitButton"&gt;Submit&lt;/button&gt;
+				&lt;button name="reset" class="resetButton"&gt;Reset&lt;/button&gt;
+			</code>
+
+		</section>
+
+
+
+		<section class="elementInput">
+			<h3>Text Input Field and Label</h3>
+			<div class="Tlabel">
+				<label for="yyName">Name on card</label>
+
+				<input type="text" id="yyName" placeholder="Page Zhang">
+			</div>
+
+
+			<h4>Sample Code</h4>
+
+			<code>	&lt;div class="Tlabel"&gt;
+				&lt;label for="yourName"&gt;Name&lt;/label&gt;
+				&lt;input class="input" type="text" placeholder="Page Zhang"&gt;
+				&lt;/div&gt;
+			</code>
+
+		</section>
+
+
+
+		<section class="element">
+			<h3>Radio Button Input Field and Label</h3>
+
+			<label class="Rcontainer">Visa card
+				<input type="radio" checked="checked" name="radio">
+				<span class="click"></span>
+			</label>
+
+
+
+			<h4>Sample Code</h4>
+
+			<!-- I learned this part's code from this website:https://www.w3schools.com/howto/howto_css_custom_checkbox.asp-->
+
+			<code>
+
+				&lt;label class="Rcontainer"&gt;Visa card
+				&lt;input type="radio" checked="checked" name="radio"&gt;
+				&lt;span class="click"&gt;&lt;/span&gt;
+				&lt;/label&gt;
+			</code>
+
+		</section>
+
+
+		<section class="element">
+			<h3>Image as a Link</h3>
+
+			<figure class="lImage">
+
+				<a href="#"><img src="images/1.jpeg" alt="this should be an image" width="856" ></a>
+
+			</figure>
+			<h4>Sample Code</h4>
+
+			<code>	
+				&lt;figure class="lImage"&gt;
+
+				&lt;a href="#"&lt;img src="images/1.jpeg" alt="this should be an image" &gt;&lt;/a&gt;
+
+				&lt;/figure&gt;
+			</code>
+
+		</section>
+
+	</section>
+
+	<!-- TEXT ELEMENTS SECTION -->
+
+	<section id="text_elements">
+
+		<h2>Text Styleing</h2>
+
+		<section class="element">
+
+			<h3>Four Levels of Headings</h3>
+
+			<p id="eg1">Heading 1 (Main Title)</p>
+			<p id="eg2">Heading 2 (Section Header)</p>
+			<p id="eg3">Heading 3 header (Sub Section Header)</p>
+			<p id="eg4">Heading 4 header (Secondary Sub Section Header)</p>
+
+			<h4>Sample Code</h4>
+
+			<code>
+
+				&lt;h1&gt;Heading 1 (Main Title) &lt;/h1&gt;
+				&lt;h2&gt;Heading 2 (Section Header) &lt;/h2&gt;
+				&lt;h3&gt;Heading 3 header (Sub Section Header) &lt;/h3&gt;
+				&lt;h4&gt;Heading 4 header (Secondary Sub Section Header) &lt;/h4&gt;
+
+			</code>
+
+		</section>
+
+		<section class="elementP">
+
+			<h3>A Paragraph</h3>
+
+			<p>This is a paragraph.This is a paragraph.This is a paragraph.This is a paragraph.This is a paragraph.This is a paragraph.
+				This is a paragraph.This is a paragraph.This is a paragraph.This is a paragraph.
+				This is a paragraph.This is a paragraph.This is a paragraph.This is a paragraph.This is a paragraph.This is a paragraph.
+				This is a paragraph.This is a paragraph.This is a paragraph.This is a paragraph.This is a paragraph.
+			This is a paragraph.This is a paragraph.This is a paragraph.This is a paragraph.This is a paragraph. </p>
+
+			<h4>Sample Code</h4>
+
+			<code>
+				&lt;p&gt;This is a paragraph.This is a paragraph.This is a paragraph.This is a paragraph.This is a paragraph.This is a paragraph.
+				This is a paragraph.This is a paragraph.This is a paragraph.This is a paragraph.
+				This is a paragraph.This is a paragraph.This is a paragraph.This is a paragraph.This is a paragraph.This is a paragraph.
+				This is a paragraph.This is a paragraph.This is a paragraph.This is a paragraph.This is a paragraph.
+				This is a paragraph.This is a paragraph.This is a paragraph.This is a paragraph.This is a paragraph. &lt;/p&gt;
+			</code>
+
+
+		</section>
+
+
+		<section class="element">
+
+			<h3>Numbered Lists</h3>
+
+			<ol>
+				<li>Ribbed cotton T-shirt</li>
+				<li>Super Skinny High Jeans</li>
+				<li>Lyocell-blend bell-shape skirt</li>
+			</ol>
+
+			<h4>Sample Code</h4>
+			<code>          
+				&lt;ol&gt;
+
+				&lt;li&gt;Ribbed cotton T-shirt&lt;/li&gt;
+				&lt;li&gt;Super Skinny High Jeans&lt;/li&gt;
+				&lt;li&gt;Lyocell-blend bell-shape skirt&lt;/li&gt;
+
+				&lt;/ol&gt;
+
+			</code>
+
+		</section>
+
+	</section>
+
+	<!-- COMBINED ELEMENTS SECTION -->
+
+
+	<section id="combined_elements">
+
+
+
+
+		<h2>Combined Elements</h2>
+
+		<section class="element">
+
+			<h3>Main Navigation</h3>
+
+			<nav class="nav4"> 
+
+				<a href="#">Study Guide</a>		
+				<a href="#">Products Listing</a>
+				<a href="#">Cart</a>
+				<a href="#">Checkout</a>
+
+			</nav>
+
+			<h4>Sample Code</h4>
+
+			<code>
+
+				&lt;nav class="nav1"&gt; 
+
+				&lt;a href="#"&gt;Study Guide&lt;/a&gt;	
+				&lt;a href="#productsListing"&gt;Products Listing&lt;/a&gt;
+				&lt;a href="#checkout"&gt;Cart&lt;/a&gt;
+				&lt;a href="#contact"&gt;Checkout&lt;/a&gt;
+
+				&lt;/nav&gt;
+			</code>
+
+		</section>
+
+
+
+	</section>
+
+	<!-- DESIGN ELEMENTS SECTION -->
+
+
+	<section id="design_elements">
+
+		<h2>Design Elements</h2>
+
+		<section class="element">
+
+			<h3>Fonts</h3>
+			<p id="p1">Palatino: This is the font for title/heading.</p>
+			<p id="p2">Aaargh: This is the font for body.</p>
+
+		</section>
+
+		<section class="element">
+
+			<h3>Colors</h3>
+
+			<div class="colors">
+
+				<div class="color1">
+					<h4>Background Color</h4>
+
+				</div>
+
+
+				<div class="color2">
+					<h4>Header Color / Button Color</h4>
+
+
+				</div>
+
+				<div class="color3">
+					<h4>Navgation bar color 1</h4>
+
+				</div>
+
+				<div class="color4">
+					<h4>Navgation Bar Color 2</h4>
+
+				</div>
+
+				<div class="color5">
+					<h4>Text Color</h4>
+
+				</div>
+
+
+
+			</div>
+
+
+		</section>
+
+
+	</section>
+
+	<!-- BRAND ELEMENTS SECTION -->
+
+
+	<div id="brand_elements">
+		<div class="element">
+			<p id="p4">Brand Elements</p>
+			<h3> What does the company do, or offer?</h3>
+			<p>This is a company that sells women's clothing.</p> 
+
+			<h3> Who is the company to potential customers? (as a person)</h3>
+			<p>The main target customers are young women who are between 19-35 years old.</p>  
+
+			<h3>Why might this company entice someone to purchase a product or service</h3>
+			<p>This company sells the clothing which is current trend, and can attract many young women to buy their products.</p>
+		</div>
+	</div>
+
+	<!--PRODCUTION LIST SECTION -->
+
+	<div id="productPage">
+
+		<h2>Product List</h2>
+
+		<div class="pContainer">
+
+			<div class="pro1">
+				<img src="images/tops.jpeg" alt="This is the image's link: https://lp2.hm.com/hmgoepprod?set=source[/0d/03/0d036214d81c9ded9c88dc8cab90452ddfb5e40f.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[l],hmver[1]&call=url[file:/product/fullscreen]" width="300">
+				<p><a href="#">Ribbed cotton T-shirt</a></p>
+				<p>cost: $8.00</p>
+			</div>
+
+			<div class="pro2">
+				<img src="images/jj.jpeg" alt="This is the image's link: https://lp2.hm.com/hmgoepprod?set=source[/7c/6e/7c6ed6bf87f52c540d8d56b591a99f62557ad928.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[l],hmver[1]&call=url[file:/product/fullscreen]" width="300" >
+
+				<p><a href="#">Super Skinny High Jeans</a></p>
+				<p>cost: $29.95</p>
+			</div>
+
+
+			<div class="pro3">
+				<img src="images/ss.jpeg" alt="This is the image's link: https://lp2.hm.com/hmgoepprod?set=source[/c1/7e/c17e752e08945d4ac3ef4666519339e6fe62e182.jpg],origin[dam],category[ladies_skirts_midiskirts],type[DESCRIPTIVESTILLLIFE],res[l],hmver[1]&call=url[file:/product/fullscreen]" width="300" >
+
+				<p><a href="#">Lyocell-blend bell-shape skirt</a></p>
+				<p>cost: $94.95</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- CART SECTION -->
+
+	<!-- I learned this part's code from this website:https://www.w3schools.com/howto/howto_css_checkout_form.asp-->
+
+	<div id="cart">
+		<div class ="cartcoli">
+			<h2>Cart</h2>
+			<div class="container">
+
+
+				<p><a href="#">Super Skinny High Jeans</a> <span class="price">$15</span></p>
+				<p><a href="#">Ribbed cotton T-shirt</a> <span class="price">$5</span></p>
+				<p><a href="#">Lyocell-blend bell-shape skirt</a> <span class="price">$8</span></p>
+				<hr>
+				<p>Total <span class="price" ><b>$30</b></span></p>
+				<button name="submit" class="cButton">Continue to checkout</button>
+			</div>
+		</div>
+
+
+	</div>
+
+
+
+	<!-- CHECKOUT SECTION -->
+
+	<!-- I learned this part's code from this website:https://www.w3schools.com/howto/howto_css_checkout_form.asp -->
+
+
+	<div id="checkout">
+
+		<h2>Checkout</h2>
+		<h3> Billing Address</h3>
+		<div class="container">
+
+			<div class="label1">
+				<label for="fName">Full name</label>
+
+				<input type="text" id="fName" placeholder="Page Zhang">
+
+				<label for="eName">E-mail</label>
+
+				<input type="text" id="eName" placeholder="page@126.com">
+
+				<label for="add">Address</label>
+
+				<input type="text" id="add" placeholder="333 Beijing Ave">
+
+				<label for="city">City</label>
+
+				<input type="text" id="city" placeholder="Beijing">
+
+			</div>
+
+
+			<button name="submit" class="cButton">Continue to checkout</button>
+
+		</div>
+
+		<h3> Payment Method</h3>
+
+
+
+		<div class="container">
+
+			<p>Choose your payment method</p>
+			<!-- I learned this part's code from this website:https://www.w3schools.com/howto/howto_css_custom_checkbox.asp -->
+			<label class="Rcontainer">Visa card
+				<input type="radio" checked="checked" name="radio">
+				<span class="click"></span>
+			</label>
+
+			<label class="Rcontainer">Wechat pay 
+				<input type="radio" checked="checked" name="radio">
+				<span class="click"></span>
+			</label>
+			<label class="Rcontainer">Debit card
+				<input type="radio" checked="checked" name="radio">
+				<span class="click"></span>
+			</label>
+
+
+
+
+			<label for="yName">Name on card</label>
+
+			<input type="text" id="yName" placeholder="Page Zhang">
+
+			<label for="cName">Card number</label>
+
+			<input type="text" id="cName" placeholder="XXXX-XXXX-XXXX-XXX">
+
+			<label for="eDate">Exp date</label>
+
+			<input type="text" id="eDate" placeholder="Month/Year">
+
+			<label for="cvv">CVV</label>
+
+			<input type="text" id="cvv" placeholder="XXX">
+
+			<label for="zip">Zip</label>
+
+			<input type="text" id="zip" placeholder="V11 333">
+
+
+
+			<button name="submit" class="cButton">Continue to checkout</button>
+
+
+		</div>
+
+
+
+	</div>
+
+
+	<!--  CITATIONS SECTION  -->
+
+
+
+	<div id="citations">
+
+		<div class="element">
+
+			<p id="p5">Citations</p>
+
+			<p class="p6">https://www.w3schools.com/tags/tag_label.asp</p>
+			<p class="p6">https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_label</p>
+			<p class="p6">https://mitsui-shopping-park.com/lazona-kawasaki/shopguide/__icsFiles/afieldfile/2015/04/03/rogo_20140529205458000659.jpg</p>
+			<p class="p6">https://i.pinimg.com/564x/08/4f/ba/084fbafcf96284184b79ddbbcc95b94c.jpg</p>    
+			<p class="p6">https://lp2.hm.com/hmgoepprod?set=source[/0d/03/0d036214d81c9ded9c88dc8cab90452ddfb5e40f.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[l],hmver[1]&call=url[file:/product/fullscreen]</p>
+			<p class="p6">https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_label</p>
+			<p class="p6">https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_button_type</p>   
+			<p class="p6">https://lp2.hm.com/hmgoepprod?
+			set=source[/c1/7e/c17e752e08945d4ac3ef4666519339e6fe62e182.jpg],origin[dam],category[ladies_skirts_midiskirts],type[DESCRIPTIVESTILLLIFE],res[l],hmver[1]&call</p>
+			<p class="p6">https://lp2.hm.com/hmgoepprod?set=source[/7c/6e/7c6ed6bf87f52c540d8d56b591a99f62557ad928.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[l],hmver[1]&call=url[file:/product/fullscreen]</p>
+
+		</div>
+
+	</div>
+
+
+</body>
+</html>

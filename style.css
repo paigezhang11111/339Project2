@@ -1,0 +1,525 @@
+*{
+	box-sizing:border-box;
+
+}
+html{
+	scroll-behavior: smooth;
+}
+
+
+@font-face{
+	font-family:"Aaargh";
+	src:url("Aaargh.ttf");
+}
+
+body{
+	background-color:#dacfce;
+}
+
+/*----------css for the header part-----------*/
+
+header{
+	background-color:	#854442;
+
+}
+
+header>h1{
+	padding-top: 2em;
+	margin-bottom:2em;
+	padding-left: 0.8em;
+}
+
+
+header>.nav1{
+	background-color: #856e66;
+	font-size: 0.9em;
+}
+
+
+header>.nav2{
+	background-color: #cbbeb5;
+	font-size: 0.9em;
+
+}
+
+
+.nav1 a{
+	color:black;
+	text-decoration:none;
+	padding:1em 1.75em;
+	display:inline-block;
+}
+
+.nav1 a:hover{
+	background:#aaa;
+	color:black;
+}
+
+.nav2 a{
+	color:black;
+	text-decoration:none;
+	padding:1em 1.75em;
+	display:inline-block;
+}
+
+.nav2 a:hover{
+	background:#aaa;
+	color:black;
+}
+
+.nav1{
+	font-size: 15px;
+	font-weight: bold;
+	font-family:"Aaargh";
+
+}
+
+.nav2{
+	font-size: 15px;
+	font-weight: bold;
+	font-family:"Aaargh";
+
+}
+/*----------css for some basic components-----------*/
+
+h1{
+	font-family: "Palatino";
+}
+
+
+
+h2 {
+	font-family: "Palatino";
+	padding-top: 0.3em;
+	padding-left: 1em;
+}
+
+
+h3 {
+	font-family: "Palatino";
+	padding-top: 0.3em;
+}
+
+h4 {
+	font-family: "Palatino";
+	padding-top: 0.3em;
+}
+
+#p4{
+	font-family: "Palatino";
+	font-size: 25px;
+	font-weight: bold;
+}
+
+
+#p5{
+	font-family: "Palatino";
+	font-size: 25px;
+	font-weight: bold;
+}
+
+p{
+	font-size:14px;
+}
+
+ol{
+	font-size:14px;
+
+}
+
+p a {
+	font-size: 14px;
+}
+
+#eg2{
+	font-size:25px;
+
+}
+#eg1{
+	font-size:30px;
+
+}
+#eg3{
+	font-size:25px;
+
+}
+#eg3{
+	font-size:20px;
+
+}
+.p6{
+
+	padding-right:3em;
+	text-align: justify;
+
+}
+
+
+/*----------css for the link-----------*/
+
+a:link {
+	color: 	black;
+}
+
+a:visited {
+	color:	#423f3b;
+}
+
+a:hover {
+	color: #3a9870;
+}
+
+a:active {
+	color: #ffc125;
+}
+
+
+/*----------css for the element class-----------*/
+.element{
+	padding-left:1.5em;
+	padding-bottom: 1.5em;
+	font-family:"Aaargh";
+	margin: 0 0 3em 0;
+	border-bottom:3px  #856e66 dotted;
+	width:100%;
+
+}
+
+.elementP{
+
+	padding-left:1.5em;
+	padding-right:1.5em;
+	padding-bottom: 1.5em;
+	font-family:"Aaargh";
+	margin: 0 0 3em 0;
+	border-bottom:3px #856e66 dotted;
+	width:100%;
+	text-align: justify;
+
+}
+
+
+.elementInput{
+	padding-left:1.5em;
+	padding-bottom: 1.5em;
+	font-family:"Aaargh";
+	margin: 0 0 3em 0;
+	border-bottom:3px  #856e66 dotted;
+	width:100%;
+
+}
+
+/*----------css for the part of INTERACTIVE ELEMENTS SECTION----------*/
+
+.Tlabel{
+	width:61%;
+
+}
+
+
+.pContainer{
+	display: flex;
+	justify-content: space-around;
+	font-family:"Aaargh";
+	border-bottom:3px  #856e66 dotted;
+
+	padding-bottom: 1.5em;
+
+}
+
+
+
+
+.pro1{
+	margin-left: -5.8em;
+}
+
+
+.pro3{
+	margin-right: -5.8em;
+}
+
+
+
+.nav3 a{
+	font-family:"Aaargh";
+
+	background-color: #856e66;
+	font-size: 0.9em;
+	text-decoration:none;
+	padding:1em 1.75em;
+	display:inline-block;
+	color:black;
+}
+
+.nav3 a:hover{
+	font-family:"Aaargh";
+
+	background:#aaa;
+}
+
+.nav4 a{
+	font-family:"Aaargh";
+
+	background-color: #856e66;
+	font-size: 0.9em;
+	text-decoration:none;
+	padding:1em 1.75em;
+	display:inline-block;
+	color:black;
+}
+
+.nav4 a:hover{
+	font-family:"Aaargh";
+
+	background:#aaa;
+}
+
+#p1{
+	font-family:"Palatino";
+	font-size: 20px;
+}
+
+#p2{
+	font-family:"Aaargh";
+	font-size: 15px;
+}
+
+
+
+button{
+	padding:1em 1.75em;
+	width:20%;
+	text-align: center;
+	margin-top:1em;
+	border:none;
+	font-family:"Aaargh";
+	font-weight: bold;
+	transition: 0.3s;
+	background-color: #854442;
+}
+
+button:hover{
+	color:black; 
+	background:#ccc;
+	box-shadow:3.5px 2px black;
+}
+
+
+input{
+	background-color:#eee;
+	padding: 0.8em;
+	margin-top: 1em;
+	transition: 0.2s;
+
+}
+
+input:hover{
+	background-color:#c7a399;
+}
+
+.lImage{
+	display: inline-block;
+	margin: 0em;	
+}
+
+.lImage:hover{
+	opacity: 0.5;
+}
+
+
+/*--------------------The css for the colors palette------------------*/
+
+.color1{
+	background-color: #dacfce;
+	width: 21.7%;
+	text-align: center;
+	border:1px black solid;
+	margin-bottom:2em;
+
+}
+
+.color2{
+	background-color: #854442;
+	width: 21.7%;
+	text-align: center;
+	border: 1px solid #dacfce;
+	margin-bottom:2em;
+
+
+}
+.color3{
+	background-color: #c4cedd;
+	width: 21.7%;
+	text-align: center;
+	border: 1px solid #dacfce;
+	margin-bottom:2em;
+
+
+}
+.color4{
+	background-color: #856e66;
+	width: 21.7%;
+	text-align: center;
+	border: 1px solid #dacfce;
+	margin-bottom:2em;
+
+
+}
+
+.color5{
+	background-color: black;
+	color:white;
+	width: 21.7%;
+	text-align: center;
+	border: 1px solid #dacfce;
+	margin-bottom:2em;
+}
+
+
+/*--------------------The css for the CART SECTION------------------*/
+/*------------ I learned this part's code from this website:https://www.w3schools.com/howto/howto_css_checkout_form.asp-----------
+*/
+
+
+.container {
+	background-color: #f2f2f2;
+	padding-bottom: 1.5em;
+	font-family:"Aaargh";
+	margin-left: 1.7em;
+	margin-right: -10em;
+	margin-top: 1.5em;
+	width:58.6%;
+	padding-bottom: 1.5em;
+	padding: 14px 19px 14px 19px;
+
+
+
+
+}
+
+
+
+#cart{
+	border-bottom:3px #856e66 dotted;
+	margin: 0 0 3em 0;
+	width:100%;
+	padding-bottom: 3.5em;
+
+}
+hr {
+	border: 2px solid #595959;
+}
+
+span.price {
+	float: right;
+}
+
+
+/*--------------------The css for the checkout SECTION------------------*/
+/*------------ I learned this part's code from this website:https://www.w3schools.com/howto/howto_css_checkout_form.asp-----------*/
+
+
+
+#checkout{
+	border-bottom:3px #856e66 dotted;
+	width:100%;
+	padding-bottom: 3.5em;
+
+}
+
+
+
+
+
+label {
+	display: block;
+	margin-bottom: 12px;
+
+
+}
+
+.label1{
+
+
+	display: block;
+	margin-bottom: 12px;
+	padding-top:20px;
+
+
+
+}
+
+
+.cButton{
+	width: 100%;
+	font-size: 16px;
+}
+
+a{
+	font-size: 15px;
+	font-weight: bold;
+}
+
+
+#checkout>h3{
+	margin-left: 24px;
+}
+
+
+/*----------I learn this code from this website:https://www.w3schools.com/howto/howto_css_checkout_form.asp ---------------*/
+.Rcontainer {
+	display: block;
+
+	position: relative;
+
+	margin-bottom: 20px;
+	cursor: pointer;
+	padding-left: 30px;
+
+	font-size: 15px;
+
+}
+
+.Rcontainer input {
+
+	opacity: 0;
+	position: absolute;
+	cursor: pointer;
+}
+
+.click {
+	position: absolute;
+	top: 0;
+	height: 20px;
+	width: 20px;
+	left: 0;
+
+	background-color:   #bbb;
+	border-radius: 60%;
+}
+
+.Rcontainer:hover input ~ .click {
+	background-color: #c7a399;
+}
+
+.Rcontainer input:checked ~ .click {
+	background-color: #854442;
+}
+
+
+.Rcontainer input:checked ~ .click:after {
+	display: block;
+}
+input[type=text] {
+	width: 100%;
+	margin-bottom: 18px;
+	border: 1px solid #aaa;
+	padding: 10px;
+
+}
+
+
+
+
+
