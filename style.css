@@ -295,8 +295,6 @@ a:active {
 	font-size: 15px;
 }
 
-
-
 button{
 	padding:1em 1.7em;
 	width:12%;
@@ -307,6 +305,7 @@ button{
 	font-weight: bold;
 	transition: 0.3s;
 	background-color: #854442;
+	color: #cbbeb5;
 }
 
 button:hover{
