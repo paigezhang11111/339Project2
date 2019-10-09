@@ -300,7 +300,7 @@ button{
 	width:12%;
 	text-align: center;
 	margin-top:1em;
-	border:none;
+	border-radius:5px;
 	font-family:"Aaargh";
 	font-weight: bold;
 	transition: 0.3s;
