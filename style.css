@@ -113,13 +113,15 @@ h4 {
 	padding-top: 0.3em;
 }
 
-#p4{
+.p4{
 	font-family: "Palatino";
 	font-size: 25px;
 	font-weight: bold;
 }
 
-
+address{
+		font-size:14px;
+}
 #p5{
 	font-family: "Palatino";
 	font-size: 25px;
