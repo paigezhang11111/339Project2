@@ -23,6 +23,12 @@ code{
      margin-right: 20em;
 }
 
+img{
+	border-radius: 4px;
+  	background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 /*----------css for the header part-----------*/
 
 header{
@@ -305,8 +311,6 @@ a:active {
 	font-size: 15px;
 }
 
-
-
 button{
 	padding:1em 1.7em;
 	width:12%;
@@ -315,8 +319,10 @@ button{
 	border-radius:5px;
 	font-family:"Aaargh";
 	font-weight: bold;
+	font-size: 14px;
 	transition: 0.3s;
 	background-color: #854442;
+	color: #cbbeb5;
 }
 
 button:hover{
