@@ -198,14 +198,24 @@ a:active {
 .elementP{
 
 	padding-left:1.5em;
-	padding-right:1.5em;
+		padding-right:1.5em;
+
 	padding-bottom: 1.5em;
 	font-family:"Aaargh";
-	margin: 0 0 3em 0;
-	border-bottom:3px #856e66 dotted;
+	margin: 0 0 3em 0; 
 	width:100%;
 	text-align: justify;
+	border-bottom:3px  #856e66 dotted;
 
+
+}
+
+
+.elementP code{
+	background-color: #c2b4a7;
+    padding: 1.5em;
+ 	display: block;
+    margin-right: 18em;
 }
 
 
