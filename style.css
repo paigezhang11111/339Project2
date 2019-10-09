@@ -303,6 +303,7 @@ button{
 	border-radius:5px;
 	font-family:"Aaargh";
 	font-weight: bold;
+	font-size: 14px;
 	transition: 0.3s;
 	background-color: #854442;
 	color: #cbbeb5;
